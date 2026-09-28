@@ -1,13 +1,12 @@
-
-
-function App() {
-
-
+import React from 'react'
+import Header from "./Components/Header/Header.jsx";
+const App = () => {
   return (
-    <>
-      hii
-    </>
+      <div>
+        <Header />
+      </div>
   )
 }
-
 export default App
+
+
